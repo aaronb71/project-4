@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7ebef7; /* Alice blue background */
+}
+
+header {
+    background-color: #7a7fff; /* Soft pink */
+    color: #f58e8e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #91c8f3; /* Light blue-gray */
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    background-color: #f28c8c; /* Alice blue */
+}
+
+nav ul li a:hover {
+    background-color: #97f2f2; /* Soft teal */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f77e7e;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
