@@ -2,42 +2,58 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7ebef7; /* Alice blue background */
+    background-color: #f0f8ff; /* Lighter blue background for a fresher look */
 }
 
 header {
-    background-color: #7a7fff; /* Soft pink */
-    color: #f58e8e;
+    background-color: #4a69bd; /* Deeper blue for contrast */
+    color: #ffffff; /* White text for better readability */
     padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #f8c291; /* Add an accent border */
 }
 
 nav ul {
-    background-color: #91c8f3; /* Light blue-gray */
+    background-color: #6a89cc; /* Slightly lighter blue than header for distinction */
     list-style-type: none;
     padding: 10px;
+    text-align: center; /* Center align the navigation */
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px; /* Increase margin for better spacing */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
-    padding: 5px 20px;
-    background-color: #f28c8c; /* Alice blue */
+    color: #f0f8ff; /* Light blue text */
+    padding: 10px 25px; /* Increase padding for larger buttons */
+    background-color: #82ccdd; /* Soft, welcoming blue */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 nav ul li a:hover {
-    background-color: #97f2f2; /* Soft teal */
+    background-color: #60a3bc; /* Darker shade for hover effect */
+    color: #fff; /* Change text color to white on hover */
 }
 
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #f77e7e;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #ffffff; /* White background for the content area */
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Slightly deeper shadow for depth */
+    border-left: 5px solid #78e08f; /* Accent border to add a splash of color */
+}
+
+/* Additional styling to add more personality */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Change font for headings for more character */
+}
+
+p {
+    line-height: 1.6; /* Improve readability with more line spacing */
+    color: #333; /* Darker text for better readability */
 }
