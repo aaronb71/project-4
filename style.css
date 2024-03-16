@@ -2,8 +2,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Lighter blue background for a fresher look */
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Make background fixed instead of scrolling */
+    color: #333; /* Update text color if needed for better readability */
 }
+
 
 header {
     background-color: #4a69bd; /* Deeper blue for contrast */
